@@ -1,0 +1,15 @@
+*.db
+
+*ecql_cfg*.txt
+
+*__pycache__*
+
+*.log
+
+venv
+
+pyinstaller
+
+oracle_db_params.py
+
+logs 

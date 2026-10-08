@@ -1,0 +1,17 @@
+{"LOG_DIR": "logs",
+"LOG_LEVEL": "INFO",
+ "DB_URL": "sqlite:///my_database.db",
+ "DB_URL_CAT3":"sqlite:///my_database.db",
+ "IP": "localhost",
+ "PORT": 8001,
+ "SPARK_URI": "http://localhost:8002/api/analysis",
+ "ORIGINS": ["http://ITE05019054", "http://ITE00651204"],
+ "CAT3_POLL_LIST": ["ecql"],
+ "CAT3_POLL_RATE": 10,
+ "DATA_QUEUE_POLL_RATE": 3, 
+ "EUREKA_FLG": 1,
+ "EUREKA_SERVER": "http://localhost:8761",
+ "APP_NAME": "event-mgr",
+ "INSTANCE_ID": "event-mgr", 
+ "HEARTBEAT_INTERVAL": 30.0
+}
